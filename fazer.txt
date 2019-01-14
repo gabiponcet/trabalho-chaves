@@ -1,0 +1,35 @@
+FAZER:
+-limite de chaves reservadas
+
+ 
+ 
+FEITO:
+-remove chave
+-remove usuario
+-pagina inicial geral
+-interface usuarios
+-interface adm
+-restrição de apenas 1 adm no sistema
+-cabeçalhos separados 
+-tabela adm de reservas
+-ativar/desativar botões (utilizar um disable no botão. usar if que usa a situação da chave e mostra o botão ativado ou não)
+CABEÇALHOS:
+-usuario (lista de chaves, altera usuario)
+-adm (lista de usuarios, lista de chaves, altera chave)
+-inicial (cadastro de usuario ,página inicial login)
+-altera cadastro usuario(fazer dois: um p adm e outro pra comum)
+-titulos nas tabelas 
+
+para hoje 25/09
+
+1. Criar uma base de dados com o nome 'aula10' - OK
+2. Criar um script de conexão com o banco de dados - OK 
+3. Criar uma tabela no banco com o nome usuarios e com os atributos :id, email, 
+senha, nome, data - OK 
+4. Criar um script com um form para cadastrar usuarios nesta tabela desta base - OK
+5. Criar um script para listar os usuários cadastrados com as seguintes informações: 
+mostrar a data de cadastro no formato dia/mês/ano, o nome e o e-mail - OK
+6. Criar um script para editar os dados de um usuário - 
+7. Na listagem deve aparecer um link para o formulário de edição - 
+8. Criar um script para exclusão de um usuário - OK
+9. Na listagem deve aparecer um link para o script de exclusão - OK
